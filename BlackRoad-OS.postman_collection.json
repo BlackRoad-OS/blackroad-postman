@@ -1,0 +1,8 @@
+{"info":{"name":"BlackRoad OS API","schema":"https://schema.getpostman.com/json/collection/v2.1.0/collection.json"},"item":[
+{"name":"Health","request":{"method":"GET","url":{"raw":"https://blackroad.io/api/stats"}}},
+{"name":"Search","request":{"method":"GET","url":{"raw":"https://blackroad.io/api/search?q=mesh"}}},
+{"name":"Waitlist","request":{"method":"POST","url":{"raw":"https://blackroad.io/api/waitlist"},"body":{"mode":"raw","raw":"{\"email\":\"test@example.com\"}","options":{"raw":{"language":"json"}}}}},
+{"name":"Agents","request":{"method":"GET","url":{"raw":"https://api.blackroad.io/agents"}}},
+{"name":"Fleet Nodes","request":{"method":"GET","url":{"raw":"https://api.blackroad.io/nodes"}}},
+{"name":"Status","request":{"method":"GET","url":{"raw":"https://status.blackroad.io/api/status"}}}
+]}
